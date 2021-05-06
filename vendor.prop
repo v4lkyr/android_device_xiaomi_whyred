@@ -148,7 +148,6 @@ ro.vendor.qti.am.reschedule_service=true
 ro.sys.fw.dex2oat_thread_count=8
 
 # Display
-debug.sf.disable_backpressure=1
 debug.sf.early.sf.duration=16000000
 debug.sf.early.app.duration=16500000
 debug.sf.earlyGl.sf.duration=13500000
