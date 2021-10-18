@@ -343,4 +343,10 @@
 
     <!-- If this is true, device supports Sustained Performance Mode. -->
     <bool name="config_sustainedPerformanceModeSupported">true</bool>
+
+    <!-- Radius of the software rounded corners. -->
+    <dimen name="rounded_corner_radius">39px</dimen>
+    <dimen name="rounded_corner_radius_top">38px</dimen>
+    <dimen name="rounded_corner_radius_bottom">39px</dimen>
+
 </resources>
