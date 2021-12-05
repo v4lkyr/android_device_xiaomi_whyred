@@ -81,6 +81,15 @@ on enable-low-power
     # Reinit lmkd to reconfigure lmkd properties
     setprop lmkd.reinit 1
 
+    # msm_drm
+    write /proc/irq/7/smp_affinity_list 2
+
+    # synaptics,s3320
+    # write /proc/irq/377/smp_affinity_list 0
+
+    # kgsl-3d0
+    write /proc/irq/489/smp_affinity_list 1
+
     # Setting b.L scheduler parameters
     write /proc/sys/kernel/sched_downmigrate 85
     write /proc/sys/kernel/sched_upmigrate 95
