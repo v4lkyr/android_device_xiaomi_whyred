@@ -141,6 +141,9 @@ on enable-low-power
 on property:sys.boot_completed=1
     trigger enable-low-power
 
+    # Enable EAS
+    write /proc/sys/kernel/sched_energy_aware 1
+
 service vendor.charger /system/bin/charger
     class charger
     user system
