@@ -344,4 +344,7 @@
     <dimen name="rounded_corner_radius_top">38px</dimen>
     <dimen name="rounded_corner_radius_bottom">39px</dimen>
 
+     <!-- The name of the package that will hold the assistant role by default. -->
+    <string name="config_defaultAssistant" translatable="false">com.google.android.googlequicksearchbox</string>
+
 </resources>
