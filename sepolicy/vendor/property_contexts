@@ -28,6 +28,7 @@ gpu.stats.debug.level                   u:object_r:vendor_default_prop:s0
 
 # Power HAL
 vendor.powerhal.                        u:object_r:vendor_power_prop:s0
+vendor.powerhal.audio                   u:object_r:vendor_power_prop:s0
 vendor.powerhal.dalvik.                 u:object_r:vendor_power_prop:s0
 
 # RIL
