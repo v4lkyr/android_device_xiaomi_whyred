@@ -1,1 +1,2 @@
 dontaudit init { bt_firmware_file }:filesystem getattr;
+allow init adsprpcd_file:file mounton;
