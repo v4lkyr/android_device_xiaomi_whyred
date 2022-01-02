@@ -55,10 +55,6 @@ on early-init
 
 on init
 
-    # Support legacy paths
-    symlink /sdcard /mnt/sdcard
-    symlink /sdcard /storage/sdcard0
-
 on post-fs
     chmod 0755 /sys/kernel/debug/tracing
 
