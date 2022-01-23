@@ -114,6 +114,7 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_VERSION := 4.19
 TARGET_KERNEL_SOURCE := kernel/xiaomi/whyred
 TARGET_KERNEL_CONFIG := vendor/whyred_defconfig
+TARGET_KERNEL_NEW_GCC_COMPILE := true
 #TARGET_PREBUILT_KERNEL := device/xiaomi/whyred-kernel/Image.gz-dtb
 #TARGET_FORCE_PREBUILT_KERNEL := true
 
