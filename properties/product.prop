@@ -128,6 +128,8 @@ mm.enable.smoothstreaming=true
 vidc.enc.dcvs.extra-buff-count=2
 vidc.enc.target_support_bframe=1
 ro.media.recorder-max-base-layer-fps=60
+debug.media.transcoding.codec_max_operating_rate_720P=240
+debug.media.transcoding.codec_max_operating_rate_1080P=120
 
 # Misc
 keyguard.no_require_sim=true
