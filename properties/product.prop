@@ -88,6 +88,9 @@ ro.max.fling_velocity=20000
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
+
 # GPS
 persist.backup.ntpServer="0.pool.ntp.org"
 
