@@ -1068,13 +1068,13 @@ vendor/firmware/a530_pfp.fw
 vendor/firmware/a530_pm4.fw
 vendor/firmware/a540_gpmu.fw2
 
-# Keymaster - from S62Pro RKQ1.210406.002
+# Keymaster - from LA.UM.10.2.1.r1-03400-sdm660.0
 vendor/lib/libkeymasterdeviceutils.so|a0de8c0055d2cfac9202d8eef88854c1e9795ff4
 vendor/lib/libkeymasterprovision.so|c16328226bb07371a4928906bd70888bbee27895
-vendor/lib/libkeymasterutils.so|a2f7e894af47c33c8bf700b5a1e0a676196affde
+vendor/lib/libkeymasterutils.so|92e1ccb1916019272de6e291a46b3e0ddb4548a9
 vendor/lib64/libkeymasterdeviceutils.so|6fd0b0e1b30c4e6c5272794896306596880c657b
 vendor/lib64/libkeymasterprovision.so|d6c95d3543c707df133d50764f647e5f07adb82b
-vendor/lib64/libkeymasterutils.so|2392abef423c0610d9625670f1ff3063532e9bc1
+vendor/lib64/libkeymasterutils.so|a642ac1202ddddbf62917b6450fa3d7eaf622b6a
 
 # Keystore
 vendor/lib/hw/keystore.sdm660.so
