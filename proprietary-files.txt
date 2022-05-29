@@ -890,8 +890,8 @@ vendor/lib64/libwvhidl.so|acf4870a0b10af74a40a4c6180f2c10a1706ddbd
 vendor/lib64/libhdcpsrm.so|1cb91cbaad3c0a44df4f244f8fb462a9f0ebb0b2
 vendor/lib64/libmm-hdcpmgr.so|eb7db96305875b80971fec7b93ea800b6c9a1a77
 
-# DSP - from S62Pro RKQ1.210406.002
-vendor/bin/dspservice|a8eb76af6150bbf29c12b76b00ab469b99f563f7
+# DSP - from LA.UM.10.2.1.r1-03400-sdm660.0
+vendor/bin/dspservice|f194ad65a930f1ac1a7fdfefc637c0531d185e89
 vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc|fbf2bb38ca6bdddf98c7123da9e1f263a4eec55f
 vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy|f060101b26d3674bb173e5fc95e118f56a8ac15d
 vendor/lib/vendor.qti.hardware.dsp@1.0.so|f902e821229cd1fff50ebfba99b0a068cbf74a56
