@@ -24,6 +24,10 @@ vendor/lib64/libfastcvopt.so|936f2bb6da055ec80aacd48253ea8fa885844641
 vendor/lib64/libmdsprpc.so|d0252bb9747bb90cbb7e8788a9906ecbed44cb60
 vendor/lib64/libsdsprpc.so|58ee0bd2d4b5c40afeb7d654dd020f09676fe9d9
 
+# ADSP Modules (AptX)
+vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so
+vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so
+
 # ADSP modules - from S62Pro RKQ1.210406.002
 vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so|f4d8675a46c5e52add8f8e90e35b29cd33ac582b
 vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_800h_skel.so|c240d45c3a5fc37b964c4adab06f4cb0bfda62f5
@@ -91,10 +95,6 @@ vendor/lib/hw/audio.bluetooth_qti.default.so|c4a39c069213853448ef9c8df917a74e70b
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|c8c79a54c30c525b7bcdce7642ee733d8b8b21af
 vendor/lib/btaudio_offload_if.so|f191ea7ab220e9cca53e017aa99fb10a08c27582
 vendor/lib/libbluetooth_audio_session_qti.so|4c24625126384af08cd670858cdbebd0a780efe1
-
-# Bluetooth (aptX) - from ginkgo V12.5.1.0.RCOCNXM
-vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so|59cbdf5d84ba2ff64014941f3ad9e6c2c35e2c06
-vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so|e25f1087edc95d2ff76c1e37787ca37aae2cf175
 
 # Bluetooth (aptX) - from sunfish RQ1A.201205.008
 system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
