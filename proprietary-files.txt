@@ -1,16 +1,26 @@
 # jasmine package version: V11.0.13.0.QDIMIXM, unless stated otherwise
 
-# ADSP - from S62Pro RKQ1.210406.002
+# ADSP - from LA.UM.10.2.1.r1-03400-sdm660.0
+system_ext/lib/libadsprpc_system.so|fd315da148c4ab2930401b867778b2f9a7f09d79
+system_ext/lib/libmdsprpc_system.so|5f40a5c3944e358bd06dec2e8f38f29438cc448a
+system_ext/lib/libsdsprpc_system.so|4da90922c4a78cd2887bc507a58b961e1f14e434
+system_ext/lib64/libadsprpc_system.so|77e5d1452f0f86185093fa34529b9b5f818a75ef
+system_ext/lib64/libmdsprpc_system.so|b5ea6a8e2b9d99cb85b6d313a8d7bf2a28c82c7f
+system_ext/lib64/libsdsprpc_system.so|cde1ea070efa2f8ab4b3b5dfeeb26b732ce1017d
 vendor/bin/adsprpcd|5e246a6f5d2dca27e29b233a17e4673532191b95
 vendor/etc/init/vendor.qti.adsprpc-service.rc|54588df8e7da58c66838028d2284986b966c2d37
-vendor/lib/libadsp_default_listener.so|c822c536d9776ca2d60bf5a158531544f20c4829
+vendor/lib/libadsp_default_listener.so|fca7bb26dc4f16d29eb9fe8373f6679de72143e4
+vendor/lib/libadsp_hvx_callback_skel.so|349803cd69d676e386b2a923c128c49aeefdeb4a
+vendor/lib/libadsp_hvx_stub.so|59e9f81b8d3a41a69badf201acee57615f822013
 vendor/lib/libadsprpc.so|3da7471cbfb2f26bb997d21098282697ee1965e4
-vendor/lib/libcdsprpc.so|4ef30602663e13d44e1c7dd09db927fa4e6947ae
-vendor/lib/libfastcvopt.so|4f4a2297c4071c3b22b967000ecc1f4ea1b9d203
+vendor/lib/libfastcvadsp_stub.so|6e9d2b6e08188daba1d2f96ab708146391594280
+vendor/lib/libfastcvopt.so|3d39db85c2102cba15eac2db06027464518f7704
 vendor/lib/libmdsprpc.so|50380552c78713d9678978b6654c20401b5040f6
 vendor/lib/libsdsprpc.so|dcff191dcb9af4cc6f9a54c4eca6664bf6f965a4
-vendor/lib64/libadsp_default_listener.so|41f91a64209c0431d87cee08999c5cfdc5dedb38
+vendor/lib64/libadsp_default_listener.so|f4738e7bf0d5205e9d3b5e290a931d03d2ef700d
 vendor/lib64/libadsprpc.so|14348488a9d8a30f6787d5b11bf4d4857d23e58e
+vendor/lib64/libfastcvadsp_stub.so|3de1763ac58a705dfba9b517169ee2683699eb7c
+vendor/lib64/libfastcvopt.so|936f2bb6da055ec80aacd48253ea8fa885844641
 vendor/lib64/libmdsprpc.so|d0252bb9747bb90cbb7e8788a9906ecbed44cb60
 vendor/lib64/libsdsprpc.so|58ee0bd2d4b5c40afeb7d654dd020f09676fe9d9
 
