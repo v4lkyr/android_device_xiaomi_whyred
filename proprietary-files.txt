@@ -836,10 +836,12 @@ system_ext/lib64/libdpmframework.so|67ebd736333ae7158632735e3db06a4f9664f6a6
 system_ext/lib64/libdpmtcm.so|ddef98d55e3045ebac458b38165acd5d2f75cd7a
 system_ext/lib64/vendor.qti.diaghal@1.0.so|f6abf6cb294c397b4286da87aff6910219d0a2b8
 -system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|2ba74d74e5f0f45c88555c465f31fc30a7dabf74
-vendor/bin/dpmQmiMgr|4fe936478b0da1ee20c6222234b80d478a72cc2a
+
+# DPM - from LA.UM.9.12.r1-13700.03-SMxx50.QSSI12.0
+vendor/bin/dpmQmiMgr|df41c54776abef6edb12b1cd6d250abf5ea6c0a5
 vendor/etc/init/dpmQmiMgr.rc|1538743661a5c48c15cd105beaad20f72953885a
-vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|c5c893e86d38b8aa8cd277ccb8b011fb2f19995e
-vendor/lib64/libdpmqmihal.so|ffcd85e1f6bf7d54f37953edc2cb2c4a61fc894a
+vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|ad06856903b163a28135d6c8fd354258e3f0292c
+vendor/lib64/libdpmqmihal.so|67a75d6bd39f4bc825e14d21fa5b61e26ac82b22
 
 # Display calibration
 vendor/etc/qdcm_calib_data_huaxing_nt36672_fhd_video_mode_dsi_panel.xml
