@@ -120,6 +120,7 @@ ro.config.low_ram=false
 
 # Media
 debug.stagefright.omx_default_rank=0
+debug.stagefright.omx_default_rank.sw-audio=1
 media.stagefright.thumbnail.prefer_hw_codecs=true
 media.stagefright.enable-http=true
 media.stagefright.enable-aac=true

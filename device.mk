@@ -141,6 +141,15 @@ PRODUCT_PACKAGES += \
     libdng_sdk.vendor \
     vendor.qti.hardware.camera.device@1.0:64
 
+# Codec2 modules
+PRODUCT_PACKAGES += \
+    com.android.media.swcodec \
+    libsfplugin_ccodec \
+    android.hardware.media.c2@1.0.vendor \
+    android.hardware.media.c2@1.1.vendor \
+    libcodec2_hidl@1.0.vendor \
+    libcodec2_vndk.vendor
+
 # Component overrides
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml
@@ -316,10 +325,12 @@ PRODUCT_COPY_FILES += \
 
 # Media Extensions
 PRODUCT_PACKAGES += \
-    libavmediaserviceextensions \
+    android.hardware.media.omx@1.0-impl \
+    mediametrics \
     libmediametrics \
     libregistermsext \
-    mediametrics
+    libstagefright_enc_common \
+    libavmediaserviceextensions
 
 # Net
 PRODUCT_PACKAGES += \
@@ -331,9 +342,9 @@ PRODUCT_PACKAGES += \
     libc2dcolorconvert \
     libhypv_intercept \
     libmm-omxcore \
-    libOmxCore \
     libOmxAacEnc \
     libOmxAmrEnc \
+    libOmxCore \
     libOmxEvrcEnc \
     libOmxG711Enc \
     libOmxQcelp13Enc \
