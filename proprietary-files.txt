@@ -1398,11 +1398,12 @@ vendor/etc/calmodule.cfg|35ca480b8b6d088dad04f424ac59e8b14b55c814
 vendor/lib64/libcalmodule_common.so|5715cb6000a71bd28746272665b916aad9a6d384
 vendor/lib64/sensor_calibrate.so|4ea3edd07cbcfc2d22d173d9f86c2065ad7be6c4
 
-# Time services - from S62Pro RKQ1.210406.002
--vendor/app/TimeService/TimeService.apk|88f7c7f4c10f53dfd69cf7828f883d3df82003e7
-vendor/bin/time_daemon|48401d7f85c87aa3e12ce7b4a969a50cbf59c293
+# Time services - from LA.UM.10.2.1.r1-03400-sdm660.0
+-vendor/app/TimeService/TimeService.apk|b3e694ecbf8eccf3b503b2adfc1133f13fa0c176
+vendor/bin/time_daemon|6dca9af6adbe563783ff8d93f165f7e8ab92828c
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
-vendor/lib64/libtime_genoff.so|8bb116ad297a5e4a94da2f10509509cb6e863a5f
+vendor/lib/libtime_genoff.so|620254812afea89bf555e5b6bb2fad7730fb91e0
+vendor/lib64/libtime_genoff.so|d36b80620351c55e29665204d9b8b747530019f1
 
 # Thermal - from S62Pro RKQ1.210406.002
 vendor/bin/thermal-engine|fe478f3ba50a819f58cc55dc1227bc0e37d30b14
