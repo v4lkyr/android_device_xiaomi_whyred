@@ -161,10 +161,12 @@ persist.radio.VT_CAM_INTERFACE=2
 persist.radio.data_con_rprt=1
 persist.radio.multisim.config=dsds
 persist.radio.calls.on.ims=1
+persist.dbg.ims_volte_enable=1
 ro.telephony.default_cdma_sub=0
-ro.telephony.default_network=22,22
+ro.telephony.default_network=20,20
 ril.subscription.types=RUIM
 telephony.lteOnCdmaDevice=1
+vendor.rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
 
 # RCS
 persist.rcs.supported=0
