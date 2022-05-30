@@ -1371,19 +1371,32 @@ vendor/lib64/vendor.qti.imsrtpservice@3.0.so|25517caf74691b812320b46b477a3f4161c
 -system_ext/priv-app/ims/ims.apk|3dae438ef192086a8913c06d24c055802c25f2a6
 
 # Sensors
-vendor/etc/sensors/sensor_def_qcomdev.conf
-
-# Sensors - from S62Pro RKQ1.210406.002
-vendor/bin/sensors.qti|04d11860e030b6176056b6e862b9e4ee9ba2289a
+vendor/etc/sensors/sensor_def_qcomdev.conf|33214fd4ac19fc6ba500017095b205251573abea
 vendor/etc/sensors/hals.conf|bf3677cbfa5ce5735662e8c259cb027969f65c87
-vendor/lib/hw/activity_recognition.sdm660.so|005b4c0d3dfd4c2bd4361b8c8754314a8c4de40d
-vendor/lib/libsensor1.so|0b74f64339245b2bb9e08aa97a78bd8d344463c5
-vendor/lib/libsensor_reg.so|40a7b8e675352be825806017766b4fed3a3e128d
-vendor/lib/sensors.ssc.so|7cbe5294892d5b7a514141f6a902f1d9f1b1ca6a
-vendor/lib64/hw/activity_recognition.sdm660.so|d121abfadb5798cdb5620350b7a35322018dd5bb
-vendor/lib64/libsensor1.so|9438649176e37dfa406f4d4858ad31441ad4c3aa
-vendor/lib64/libsensor_reg.so|c09110fd11f384040c31b7fd5c2b187aa901168c
-vendor/lib64/sensors.ssc.so|6934f0fd9e5e74356d9f18af0cbaa28164e697f6
+
+# Sensors
+vendor/bin/sensors.qti|556b206bd4a21fb641cd7088eeefef2bd0e68cd1
+vendor/lib/hw/activity_recognition.sdm660.so|9be48f9cb35dc2f41ef14c99384e4d817268df89
+vendor/lib/hw/sensors.sdm660_64.so|45d5b14f08974c4ee780f6412ae73bb1d7820e3e
+vendor/lib/libsensor1.so|5a169e230a4f81d634da07a700b848b02a09eaf7
+vendor/lib/libsensor_reg.so|ed019ab779425ca97b3d451ff0149dc3c0e6f2e0
+vendor/lib/libssc_default_listener.so|94bcf6cb842a08e233fa7f6bfea4002dd7ab0efc
+vendor/lib/sensors.native.so|e6524e8761cecade84c01f90fdd64bb60e6a73cd
+vendor/lib/sensors.ssc.so|4f449fc9b91ab521fd84d02f0bc30bdb4bc62f11
+vendor/lib64/hw/activity_recognition.sdm660.so|d38d2e389790aed55684ab2979262ebe24189509
+vendor/lib64/hw/sensors.sdm660_64.so|eb763ae47b74cecf1784f0507bcbd97cd910698c
+vendor/lib64/libsensor1.so|1ca25ac841baf0d43609e82f9c7a1300d58da682
+vendor/lib64/libsensor_reg.so|238ec472703d9e6294a143a750846066aef5027a
+vendor/lib64/libssc_default_listener.so|71c4f6feef87826eee1843dbbb971204ecc3ab7a
+vendor/lib64/sensors.native.so|9d5565c9a26b6f9b320c66bb67a1755f2a145a47
+vendor/lib64/sensors.ssc.so|bab481f26944f47160910dc51ea192eddfd34eb1
+
+# Sensors calibration
+-product/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar|b6e036c7f03aa04b87e09e05c31d1e97d0f2cb25
+product/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so|45fa1c6d3e292d1ca8c2d43f007654c30537debb
+vendor/etc/calmodule.cfg|35ca480b8b6d088dad04f424ac59e8b14b55c814
+vendor/lib64/libcalmodule_common.so|5715cb6000a71bd28746272665b916aad9a6d384
+vendor/lib64/sensor_calibrate.so|4ea3edd07cbcfc2d22d173d9f86c2065ad7be6c4
 
 # Time services - from S62Pro RKQ1.210406.002
 -vendor/app/TimeService/TimeService.apk|88f7c7f4c10f53dfd69cf7828f883d3df82003e7
