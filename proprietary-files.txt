@@ -1080,15 +1080,20 @@ vendor/lib64/libkeymasterutils.so|a642ac1202ddddbf62917b6450fa3d7eaf622b6a
 vendor/lib/hw/keystore.sdm660.so
 vendor/lib64/hw/keystore.sdm660.so
 
-# Listen - from S62Pro RKQ1.210406.002
-vendor/lib/hw/sound_trigger.primary.sdm660.so|5464b9658c9b819e18f3ad6703471278521a79d1
+# Listen - from LA.UM.10.2.1.r1-03400-sdm660.0
+vendor/lib/hw/sound_trigger.primary.sdm660.so|fdf697ad7b6f09d6568c4a4fd2399aa072a47834
 vendor/lib/libadpcmdec.so|b3ec2cc197b682aa6ae7e1da9c8f25cc1aa75750
-vendor/lib/libgcs-calwrapper.so|a80d1d6b0b6e76083b0ca98d690c5cb46e113904
-vendor/lib/libgcs-ipc.so|177f711fc9e01970ef17e9f8a79776ef31d8c973
-vendor/lib/libgcs-osal.so|413c0b9b767d8aa1da477f89b162d5b13604e0cf
-vendor/lib/libgcs.so|136b036d645ce31c3265cf2aed00c472ecec37e4
-vendor/lib/liblistensoundmodel2.so|375948b769905112429ae4fb2979be0b1e363950
-vendor/lib/libsmwrapper.so|0fbf611c9a597f7c70bfd2363dfc7f465d1dafd5
+vendor/lib/libgcs-calwrapper.so|a42c20f41b130f65b3530cfbd7a4da95e54b0657
+vendor/lib/libgcs-ipc.so|7f0ce6ca68e04bdb0691ad37f6e923160d965993
+vendor/lib/libgcs-osal.so|4c6d53e8f850fd0e6d3782225717b9fd9639f10c
+vendor/lib/libgcs.so|6713fbebe98a69327805d075a14274ab8360cebf
+vendor/lib/liblistensoundmodel2.so|296bf47af4d22e24bc09a2980ad3deea14dc163c
+vendor/lib/libsmwrapper.so|e194f3f12671c66b5c4547716e501b35f9fe8283
+vendor/lib64/libgcs-calwrapper.so|f7f2b97dcfbe747c60e7434092457b009e69b0c6
+vendor/lib64/libgcs-ipc.so|1138d9ee0b988bdfa48ac9f421157c0773cbdeca
+vendor/lib64/libgcs-osal.so|212639ff25144668a3f10acf7d78ed404a29ec98
+vendor/lib64/libgcs.so|8e53aa72fac4fdf28f383ebc505393ae6b205c4f
+vendor/lib64/liblistensoundmodel2.so|3bccd316aa0f7d8acb3ef2e400b9b75b49d90c2a
 
 # Media - from S62Pro RKQ1.210406.002
 lib/libFileMux.so|22005fb1595b2b76e199b82ff3790c1bc3d54a20
