@@ -433,7 +433,7 @@ PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0-service.xiaomi_whyred.qti
 
 PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/configs/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
+    $(DEVICE_PATH)/configs/thermal/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
 
 # USB
 PRODUCT_PACKAGES += \
