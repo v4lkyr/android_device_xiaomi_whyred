@@ -41,14 +41,14 @@
     </EncoderProfile>
 
     <EncoderProfile quality="high" fileFormat="mp4" duration="30">
-      <Video codec="h264"
-             bitRate="42000000"
+      <Video codec="hevc"
+             bitRate="35000000"
              width="3840"
              height="2160"
              frameRate="30" />
 
       <Audio codec="aac"
-             bitRate="156000"
+             bitRate="320000"
              sampleRate="48000"
              channels="2" />
     </EncoderProfile>
@@ -80,53 +80,53 @@
     </EncoderProfile>
 
     <EncoderProfile quality="480p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
-             bitRate="2000000"
+      <Video codec="hevc"
+             bitRate="10000000"
              width="720"
              height="480"
              frameRate="30" />
 
       <Audio codec="aac"
-             bitRate="156000"
+             bitRate="320000"
              sampleRate="48000"
              channels="2" />
     </EncoderProfile>
 
     <EncoderProfile quality="720p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
-             bitRate="14000000"
+      <Video codec="hevc"
+             bitRate="20000000"
              width="1280"
              height="720"
              frameRate="30" />
 
       <Audio codec="aac"
-             bitRate="156000"
+             bitRate="320000"
              sampleRate="48000"
              channels="2" />
     </EncoderProfile>
 
     <EncoderProfile quality="1080p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
-             bitRate="20000000"
+      <Video codec="hevc"
+             bitRate="25000000"
              width="1920"
              height="1080"
              frameRate="30" />
 
       <Audio codec="aac"
-             bitRate="156000"
+             bitRate="320000"
              sampleRate="48000"
              channels="2" />
     </EncoderProfile>
 
     <EncoderProfile quality="2160p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
-            bitRate="42000000"
+      <Video codec="hevc"
+            bitRate="35000000"
             width="3840"
             height="2160"
             frameRate="30" />
 
       <Audio codec="aac"
-            bitRate="156000"
+            bitRate="320000"
             sampleRate="48000"
             channels="2" />
     </EncoderProfile>
@@ -297,6 +297,34 @@
             channels="2" />
     </EncoderProfile>
 
+    <!-- CAMCORDER_QUALITY_HIGH_SPEED_LOW/720P : 720p@240fps; 40.0 Mbps -->
+   <EncoderProfile quality="highspeedlow" fileFormat="mp4" duration="30">
+        <Video codec="hevc"
+               bitRate="40000000"
+               width="1280"
+               height="720"
+               frameRate="30" />
+
+        <Audio codec="aac"
+               bitRate="320000"
+               sampleRate="48000"
+               channels="2" />
+   </EncoderProfile>
+
+   <!-- CAMCORDER_QUALITY_HIGH_SPEED_HIGH/1080P : 1080p@120fps; 40.0 Mbps -->
+   <EncoderProfile quality="highspeedhigh" fileFormat="mp4" duration="30">
+        <Video codec="hevc"
+              bitRate="40000000"
+              width="1920"
+              height="1080"
+              frameRate="30" />
+
+        <Audio codec="aac"
+             bitRate="320000"
+             sampleRate="48000"
+             channels="2" />
+   </EncoderProfile>
+
         <ImageEncoding quality="95" />
         <ImageEncoding quality="80" />
         <ImageEncoding quality="70" />
@@ -359,43 +387,56 @@
     </EncoderProfile>
 
     <EncoderProfile quality="480p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
-             bitRate="2000000"
+      <Video codec="hevc"
+             bitRate="10000000"
              width="720"
              height="480"
              frameRate="30" />
 
       <Audio codec="aac"
-             bitRate="156000"
+             bitRate="320000"
              sampleRate="48000"
              channels="2" />
     </EncoderProfile>
 
     <EncoderProfile quality="720p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
-             bitRate="14000000"
+      <Video codec="hevc"
+             bitRate="20000000"
              width="1280"
              height="720"
              frameRate="30" />
 
       <Audio codec="aac"
-             bitRate="156000"
+             bitRate="320000"
              sampleRate="48000"
              channels="2" />
     </EncoderProfile>
 
     <EncoderProfile quality="1080p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
-             bitRate="20000000"
+      <Video codec="hevc"
+             bitRate="25000000"
              width="1920"
              height="1080"
              frameRate="30" />
 
       <Audio codec="aac"
-             bitRate="156000"
+             bitRate="320000"
              sampleRate="48000"
              channels="2" />
     </EncoderProfile>
+
+    <EncoderProfile quality="2160p" fileFormat="mp4" duration="30">
+          <Video codec="hevc"
+            bitRate="35000000"
+            width="3840"
+            height="2160"
+            frameRate="30" />
+
+          <Audio codec="aac"
+            bitRate="320000"
+            sampleRate="48000"
+            channels="2" />
+        </EncoderProfile>
 
     <EncoderProfile quality="qcif" fileFormat="3gp" duration="30">
       <Video codec="h264"
@@ -556,7 +597,8 @@
         <ImageDecoding memCap="20000000" />
 
     </CamcorderProfiles>
-    <!-- Logical Camera -->
+
+    <!-- Back Camera -->
     <CamcorderProfiles cameraId="2">
 
     <EncoderProfile quality="low" fileFormat="3gp" duration="30">
@@ -705,9 +747,9 @@
 
     <EncoderProfile quality="timelapsehigh" fileFormat="mp4" duration="30">
       <Video codec="h264"
-             bitRate="42000000"
-             width="3840"
-             height="2160"
+             bitRate="20000000"
+             width="1920"
+             height="1080"
              frameRate="30" />
 
       <!-- audio setting is ignored -->
@@ -1123,6 +1165,12 @@
          In other words, the applications won't be able to use the codec
          or query the capabilities of the codec at all if it is disabled
     -->
+    <VideoEncoderCap name="hevc" enabled="true"
+        minBitRate="64000" maxBitRate="100000000"
+        minFrameWidth="176" maxFrameWidth="4096"
+        minFrameHeight="144" maxFrameHeight="2160"
+        minFrameRate="15" maxFrameRate="30" />
+
     <VideoEncoderCap name="h264" enabled="true"
         minBitRate="64000" maxBitRate="42000000"
         minFrameWidth="176" maxFrameWidth="4096"
@@ -1147,16 +1195,8 @@
         maxHFRFrameWidth="0" maxHFRFrameHeight="0"
         maxHFRMode="0"  />
 
-    <VideoEncoderCap name="hevc" enabled="true"
-        minBitRate="64000" maxBitRate="100000000"
-        minFrameWidth="176" maxFrameWidth="4096"
-        minFrameHeight="144" maxFrameHeight="2160"
-        minFrameRate="15" maxFrameRate="30"
-        maxHFRFrameWidth="0" maxHFRFrameHeight="0"
-        maxHFRMode="0"  />
-
     <AudioEncoderCap name="aac" enabled="true"
-        minBitRate="8000" maxBitRate="96000"
+        minBitRate="8000" maxBitRate="320000"
         minSampleRate="8000" maxSampleRate="48000"
         minChannels="1" maxChannels="6" />
 
